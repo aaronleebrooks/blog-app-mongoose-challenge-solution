@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: gG/Smz3Xuv/9KGKH6AVpaYA+mDKHD9oWRaTfXJmOckER0hhBc8e/Lvq0ZKoedoI89aWiM3s4FPsIlDM0fRKY37v1jCyyUAjDUnWpQo28snu9jI2kD0G+ls4x2pCJjAQE4sbT72O9wGx+FRuDaO+z/9Yks3F3BVQI5Y1fAJ0IybvyBSWpG5rALMS8GwSFOiW8nSXkZaXK/zDxHhs22vjoHBnB6RUr9QdReCN7+VesO1e19CEwzoNinaryg3e6Xbgs3XYZgf56uhfZMhPlv1mK/uoLcgO905hchTCss/08gpSmoHeDxiGeqFq+Hnr5JYr8+yR914Yq5c/8tpfKvvenyZoA7FSPnRJjJVcw+fJXwEiN8ETc9x3Vcc182S7dx5W/AJUxhSY6btsyho1eciF9KQGZJoQcUBy29VpfBCbnWGYAOfH2zs32uUEnqMHXBoWm9+feOuyPgE0QcYTvlrAui3EU9iwmNz9Vp2S/XY+LtDG8oVgvEAjWqFoyRFDh1HnEoTHISt2zdB/jmo8UwvHQtZCFZJCuvwHJdp4jy+SwVO1vnK34noY7Iy2qLbOOsyxRTqL2uc7E7cuWyV1DVyBVPQCMWIRsSQ7Tm/dayIEPAlP3dmjPXs6FsMPZX26xY7l5HRY9KZm1IYF0wHfaMQcdzivOQEodCqyrrpnken3pIhc=
+  app: afternoon-reaches-42162
+  on:
+    repo: aaronleebrooks/blog-app-mongoose-challenge-solution
